@@ -38,7 +38,7 @@
 
         <div class="col-md-8 order-md-1">
             <h4 class="mb-3">Formulario</h4>
-            <form style="text-align: center;width: 50%" method="POST" action="{{ route('Contato.enviar') }}">
+            <form style="text-align: center;width: 100%" method="POST" action="{{ route('contato.enviar') }}">
                 @csrf
                 <div class="row">
                     <div class="col-md-6 mb-3">
@@ -46,7 +46,6 @@
                         <input type="text" class="form-control" id="firstName" placeholder="" value=""
                             required>
                         <div class="invalid-feedback">
-                            Valid first name is required.
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
@@ -54,7 +53,6 @@
                         <input type="text" class="form-control" id="lastName" placeholder="" value=""
                             required>
                         <div class="invalid-feedback">
-                            Valid last name is required.
                         </div>
                     </div>
                 </div>
@@ -64,26 +62,25 @@
                     <div class="input-group">
                         <div class="input-group-prepend">
                         </div>
-                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                        <input type="text" class="form-control" id="username" placeholder="" required>
                         <div class="invalid-feedback" style="width: 100%;">
-                            Your username is required.
-                        </div>
+                            </div>
                     </div>
                 </div>
 
                 <div class="mb-3">
-                    <label for="email">Sexo<span class="text-muted">(Optional)</span></label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                    <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
-                    </div>
+                    <label for="email">Sexo<span class="text-muted"></span></label>
+                    <input type="text" class="form-control" id="username" placeholder="" required>
+
                 </div>
+                <button type="submit" >Enviar</button>
             </form>
         </div>
     </div>
 
+
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <p class="mb-1">&copy; 1989-2007 Giovanna's Version</p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="#">Privacy</a></li>
             <li class="list-inline-item"><a href="#">Terms</a></li>

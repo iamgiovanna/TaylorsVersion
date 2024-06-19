@@ -10,6 +10,6 @@ class ContatoController extends Controller
 
     public function enviarContato(Request $request)
     {
-        return view('tabela', ['titulo' => 'Contato(teste)']);
+        return view('site.tabela', ['titulo' => 'Contato(teste)']);
     }
 }

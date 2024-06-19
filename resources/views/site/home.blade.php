@@ -61,7 +61,7 @@
           <h1 class="jumbotron-heading">The Eras Tour</h1>
           <p class="lead text-muted">A cantora e ícone pop Taylor Swift faz um show que mostra por que ela é um fenômeno cultural. No espetáculo, a artista apresenta canções de todas as fases de sua carreira.</p>
           <p>
-            <a href="/ttpd" class="btn btn-primary my-2">Login</a>
+            <a href="/Contato" class="btn btn-primary my-2">Login</a>
             <a href="/quemsomos" class="btn btn-secondary my-2">Quem Somos?</a>
           </p>
         </div>

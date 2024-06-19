@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContatoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -11,6 +12,13 @@ Route::get('/quemsomos', function () {
 });
 
 
-Route::get('/ttpd', function () {
-    return view('site.ttpd');
+Route::get('/Contato', function () {
+    return view('site.contato');
 });
+
+/*/
+Route::get('/tabela', function () {
+    return view('site.tabela');
+});
+*/
+Route::post('/Contato', [ContatoController::class, 'enviarContato'])->name('contato.enviar');
